@@ -7,6 +7,7 @@ def sign(params, data: str or None = None, sec_device_id: str = '', aid: int = 1
     return {
         'x-ladon'   : ladon.Ladon.encrypt(unix, license_id, aid),
         'x-argus'   : argus.Argus.get_sign(params, x_ss_stub, unix,
+        'x-gorgon'  : argus.Gorgon.get_sign(params, x_ss_stub, unix,
             platform        = platform,
             aid             = aid,
             license_id      = license_id,
