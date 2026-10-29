@@ -8,7 +8,7 @@ email = input("Enter email: ")
 password = input("Enter password: ")
 
 data = f'birthday=1990-05-30&email={email}&mix_mode=1&multi_login=1&password={password}'
-
+data = f'birthday=1990-05-30&email={email}&mix_mode=1&multi_login=1&password={password}'
 
 headers = {
     'accept-encoding': 'gzip',
