@@ -4,7 +4,6 @@ from sign import sign
 url = 'https://api-h2.tiktokv.com/passport/email/register/v2/?passport-sdk-version=19&iid=7217815534821738246&device_id=7217541768685585926&ac=wifi&channel=googleplay&aid=1233&app_name=musical_ly&version_code=460701&version_name=46.7.1&device_platform=android&ab_version=46.7.1&ssmix=a&device_type=SM-N975F&device_brand=samsung&language=en&os_api=25&os_version=7.1.2&openudid=d1faee99c37b7ae8&manifest_version_code=2024607010&resolution=1080*1920&dpi=360&update_version_code=2024607010&_rticket=1680528883739&app_type=normal&sys_region=US&mcc_mnc=26201&timezone_name=America%2FChicago&ts=1680528883&timezone_offset=-21600&build_number=46.7.1&region=US&uoo=0&app_language=en&carrier_region=DE&locale=en&op_region=DE&content_language=he%2C&ac2=wifi&host_abi=armeabi-v7a&cdid=1783efe8-2018-4899-9ca9-20f1f2fae1ea&support_webview=1&okhttp_version=4.1.103.20-tiktok&use_store_region_cookie=1'
 
 email = input("Enter email: ")
-
 password = input("Enter password: ")
 
 data = f'birthday=1990-05-30&email={email}&mix_mode=1&multi_login=1&password={password}'
